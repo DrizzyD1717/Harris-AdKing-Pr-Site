@@ -1,0 +1,21 @@
+.about {
+  width: 80%;
+  margin: 6rem auto 0 auto;
+}
+
+.about h2 {
+  color: var(--primartText);
+  margin-bottom: 1.5rem;
+}
+
+.about .userAbout {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about .userAbout h3 {
+  color: var(--primartText);
+  line-height: 2rem;
+}

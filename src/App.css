@@ -1,0 +1,36 @@
+:root {
+  --primartText: white;
+  --secondaryText: #b3b3b3;
+  --darkGrey: #3b3b3b;
+  --primaryBg: #0a0a0a;
+  --secondaryBg: #121212;
+
+  --purple: #9b5cff;
+  --yellow: #ffd84d;
+  --lightBlue: #5ee2ff;
+  --gradient: linear-gradient(
+    to right,
+    var(--yellow),
+    var(--lightBlue),
+    var(--purple)
+  );
+
+  --yellowGradient: linear-gradient(to right, var(#f5bf00), var(#ffe68b));
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  background-color: var(--primaryBg);
+  padding: 0rem 2rem 2rem 2rem;
+  width: 100vw;
+}
+
+p {
+  color: var(--secondaryText);
+}

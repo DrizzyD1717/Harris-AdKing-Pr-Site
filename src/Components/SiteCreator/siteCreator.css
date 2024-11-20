@@ -1,0 +1,10 @@
+.creator {
+  color: var(--primartText);
+  text-align: center;
+}
+
+.creator a {
+  color: var(--secondaryText);
+  padding-left: 1rem;
+  display: inline-block;
+}

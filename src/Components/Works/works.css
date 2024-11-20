@@ -1,0 +1,42 @@
+.worksOverall {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.worksOverall .header {
+  color: var(--primartText);
+}
+
+.worksOverall .intro {
+  margin: 0 0 4rem 0;
+}
+
+.worksOverall .intro p {
+  max-width: 700px;
+  font-size: 14px;
+}
+
+.worksOverall .work {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--secondaryBg);
+  border: 1.5px solid var(--darkGrey);
+  border-radius: 15px;
+  margin: 0 0 1.5rem 0;
+}
+
+.worksOverall .work .aboutWork {
+  flex-basis: 50%;
+}
+
+.worksOverall .work .aboutWork h2 {
+  color: var(--primartText);
+  margin-bottom: 1.5rem;
+}
+
+.worksOverall .work .actualWork img {
+  width: 100%;
+  max-width: 400px;
+}

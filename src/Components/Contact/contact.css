@@ -1,0 +1,39 @@
+footer {
+  width: 80%;
+  margin: 8rem auto 4rem auto;
+  background: var(--secondaryBg);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 3rem;
+  color: var(--primartText);
+  margin-bottom: 2rem;
+}
+
+footer p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+footer .links {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+footer .links a {
+  color: var(--primartText);
+  padding: 0.5rem;
+  background: var(--primaryBg);
+  display: inline-block;
+  margin-right: 1rem;
+  border: 1px solid var(--darkGrey);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer .links a .fa-envelope {
+  padding-right: 0.5rem;
+}

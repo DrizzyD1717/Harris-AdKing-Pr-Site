@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  height: 50px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  display: inline-block;
+  color: var(--primartText);
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+header nav a:hover {
+  background: var(--darkGrey);
+  border: 1px solid var(--secondaryText);
+  border-radius: 5px;
+}
+
+header nav .contactNav {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

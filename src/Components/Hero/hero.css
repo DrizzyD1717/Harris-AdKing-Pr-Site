@@ -1,0 +1,54 @@
+.hero {
+  width: 60%;
+  margin: 0 auto;
+  padding: 6rem 0 3rem 0;
+}
+
+.hero .userLogo {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero .userLogo img {
+  height: 30px;
+}
+
+.hero .userLogo .circle {
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
+
+.hero .userLogo .square {
+  position: absolute;
+  left: 0;
+  top: 35%;
+}
+
+.hero .userLogo .polygon {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.hero .about h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    var(--primartText),
+    var(--secondaryText)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero .about p {
+  color: var(--secondaryText);
+  text-align: center;
+  line-height: 1.5rem;
+}
