@@ -19,3 +19,13 @@
   color: var(--primartText);
   line-height: 2rem;
 }
+
+@media (max-width: 768px) {
+  .about {
+    width: 90%;
+  }
+  .about .userAbout {
+    display: flex;
+    flex-direction: column;
+  }
+}

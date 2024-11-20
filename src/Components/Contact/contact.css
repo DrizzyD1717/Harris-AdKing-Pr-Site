@@ -37,3 +37,17 @@ footer .links a {
 footer .links a .fa-envelope {
   padding-right: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  footer {
+    width: 90%;
+    padding: 2rem 1rem;
+  }
+  footer .links {
+    width: 100%;
+  }
+
+  footer .links a {
+    margin-bottom: 1rem;
+  }
+}

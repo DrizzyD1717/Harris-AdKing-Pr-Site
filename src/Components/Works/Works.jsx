@@ -1,5 +1,6 @@
 import React from "react";
 import "./works.css";
+import { motion } from "framer-motion";
 
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
@@ -16,45 +17,66 @@ const Works = () => {
           excellence in user experience.
         </p>
       </div>
-      <div className="work">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          y: ["200px", 0],
+          transition: {
+            duration: 1.5,
+          },
+        }}
+        viewport={{ once: true, amount: 1 }}
+        className="work"
+      >
         <div className="aboutWork">
           <h2>Nigerian Eu innovation Seminar</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime id
-            nihil ab excepturi amet laborum assumenda numquam. Culpa, ipsa
-            aliquid?
-          </p>
+          <p></p>
         </div>
         <div className="actualWork">
           <img src={img1} alt="" />
         </div>
-      </div>
-      <div className="work">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          y: ["200px", 0],
+          transition: {
+            duration: 1.5,
+          },
+        }}
+        viewport={{ once: true, amount: 1 }}
+        className="work"
+      >
         <div className="aboutWork">
           <h2>Game Rush Euro 24 finals</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime id
-            nihil ab excepturi amet laborum assumenda numquam. Culpa, ipsa
-            aliquid?
-          </p>
+          <p></p>
         </div>
         <div className="actualWork">
           <img src={img2} alt="" />
         </div>
-      </div>
-      <div className="work">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          y: ["200px", 0],
+          transition: {
+            duration: 1.5,
+          },
+        }}
+        viewport={{ once: true, amount: 1 }}
+        className="work"
+      >
         <div className="aboutWork">
           <h2>The Yard Series ( Summer Rave)</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime id
-            nihil ab excepturi amet laborum assumenda numquam. Culpa, ipsa
-            aliquid?
-          </p>
+          <p></p>
         </div>
         <div className="actualWork">
           <img src={img3} alt="" />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
